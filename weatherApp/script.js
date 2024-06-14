@@ -3,7 +3,7 @@ const cityInput = document.querySelector(".city-input");
 const locationButton = document.querySelector(".location-btn");
 const currentWeatherDiv = document.querySelector(".current-weather");
 const weatherCardsDiv = document.querySelector(".weather-cards");
-const API_KEY = "7c8941a9de5c0e3cb831e7217c56e9cb";
+const API_KEY = "YOUR_API_KEY";
 
 const createWeatherCard = (cityNames,weatherItem,index) => {
     if(index ===  0){
